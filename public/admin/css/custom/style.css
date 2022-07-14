@@ -1,0 +1,115 @@
+table {
+    font-family: "Times New Roman";
+}
+
+table thead {
+    text-align: center;
+
+}
+
+table tbody {
+    font-size: 12px;
+}
+
+.content {
+    position: relative;
+    height: auto;
+    border-radius: 3px;
+    margin: 20px;
+    background: white;
+    border-top: 3px solid #3c8dbc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content .container {
+    margin: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.error {
+    color: red;
+}
+
+#table-show-products {
+
+}
+
+#table-show-products .td-img-show-product img {
+    width: 8em;
+    height: 8em;
+}
+
+#table-show-products .td-outstanding-product i {
+    text-align: center;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#table-show-products .td-status-product i {
+    text-align: center;
+    font-size: 20px;
+}
+
+.td-outstanding-product .outstanding_product {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    width: 50px;
+    border-radius: 5px;
+    padding: 1px 4px;
+}
+
+.td-outstanding-product .not_outstanding_product {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    width: 50px;
+    border-radius: 5px;
+    padding: 1px 4px;
+}
+
+/*//Create Product*/
+#create_product_form label {
+    font-size: 14px;
+}
+
+#create_product_form input,
+#create_product_form select,
+#create_product_form textarea {
+    border: 1px #8e44ad solid;
+}
+
+.form-select-product {
+    width: 100%;
+    height: 4rem;
+}
+
+.form-select-product option {
+    font-size: 14px;
+}
+
+.form-trangthai-product div input {
+    width: 20px;
+    height: 20px;
+}
+
+.show-image-product div img {
+    width: 100%;
+    height: auto;
+}
+
+/*message show error */
+.messages_error {
+    color: red;
+    font-size: 12px;
+}
+
+/*Create Product*/
+#create_product_form textarea, #create_product_form input, #create_product_form select {
+    padding-left: 5px;
+}
